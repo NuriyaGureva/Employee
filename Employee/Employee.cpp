@@ -118,9 +118,10 @@ int main()
 	Employee* department[] =
 	{
 		new MonthEmployee("Ivanov", "Ivan", (double)15000),
-		new MonthEmployee("Ivanov", "Ivan", (double)15500),
-		new MonthEmployee("Ivanov", "Ivan", (double)10000),
-		new HourEmployee("Sidorov", "Ivan", 500, 30),	
+		new HourEmployee("Tarasova", "Olga", 700, 35),	
+		new MonthEmployee("Medvedev", "Igor", (double)15500),
+		new MonthEmployee("Volkova", "Svetlana", (double)10000),
+		new HourEmployee("Sidorov", "Genady", 500, 30),	
 	};
 	cout << sizeof(department) / sizeof(Employee*) << endl;
 	double sum = 0;
